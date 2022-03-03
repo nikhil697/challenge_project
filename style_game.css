@@ -40,25 +40,29 @@ button{
     text-align: center;
     cursor: pointer;
     display: inline-flexbox;
-    background-color: green;
+    background-color: #4e80c0;
     font-weight: bold;
     animation: glowing 1300ms infinite;
+    padding: 10px 20px;
 }
 @keyframes glowing {
     0% {
-      background-color: #2ba805;
-      box-shadow: 0 0 5px #2ba805;
+      background-color: #4e80c0;
+      box-shadow: 0 0 5px #132c4d;
     }
     50% {
-      background-color: #49e819;
-      box-shadow: 0 0 20px #49e819;
+      background-color: #4e80c0;
+      box-shadow: 0 0 20px #132c4d;
     }
     100% {
-      background-color: #2ba805;
-      box-shadow: 0 0 5px #2ba805;
+      background-color: #4e80c0;
+      box-shadow: 0 0 5px #132c4d;
     }}
     .container{
         width: 70%;
         margin: auto;
         text-align: center;
+    }
+    h2.yu{
+        margin-right: 150px;
     } 
