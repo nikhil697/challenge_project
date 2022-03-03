@@ -29,9 +29,9 @@ function hello(){
         s2+=800;
         s3+=0;
         s4 += 500;
-        image1.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/raja1.jpeg");
-        image3.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/Chor 1.jpg"); 
-        image4.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/SIPAHI1.jpg"); 
+        image1.setAttribute("src","./raja1.jpeg");
+        image3.setAttribute("src","./Chor 1.jpg"); 
+        image4.setAttribute("src","./SIPAHI1.jpg"); 
         document.getElementById("s1").innerHTML=s1
         document.getElementById("s2").innerHTML=s2
         document.getElementById("s3").innerHTML=s3
@@ -42,9 +42,9 @@ function hello(){
         s2+=800;
         s3+=500;
         s4+=1000;
-        image4.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/raja1.jpeg");
-        image1.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/Chor 1.jpg"); 
-        image3.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/SIPAHI1.jpg");
+        image4.setAttribute("src","./raja1.jpeg");
+        image1.setAttribute("src","./Chor 1.jpg"); 
+        image3.setAttribute("src","./SIPAHI1.jpg");
         document.getElementById("s1").innerHTML=s1
         document.getElementById("s2").innerHTML=s2
         document.getElementById("s3").innerHTML=s3
@@ -55,21 +55,21 @@ function hello(){
         s2+=800;
         s3+=1000;
         s4+=0;
-        image3.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/raja1.jpeg");
-        image4.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/Chor 1.jpg"); 
-        image1.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/SIPAHI1.jpg");
+        image3.setAttribute("src","./raja1.jpeg");
+        image4.setAttribute("src","./Chor 1.jpg"); 
+        image1.setAttribute("src","./SIPAHI1.jpg");
         document.getElementById("s1").innerHTML=s1
         document.getElementById("s2").innerHTML=s2
         document.getElementById("s3").innerHTML=s3
         document.getElementById("s4").innerHTML=s4
     }
-
 }
+
 function tryagain(){
     var image1=document.getElementById("p1");
     var image3=document.getElementById("p3");
     var image4=document.getElementById("p4");
-    image1.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/istockphoto-692814410-170667a.jpg");
-    image3.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/istockphoto-692814410-170667a.jpg"); 
-    image4.setAttribute("src","file:///C:/Users/DELL/Desktop/New%20folder/istockphoto-692814410-170667a.jpg"); 
+    image1.setAttribute("src","./istockphoto-692814410-170667a.jpg");
+    image3.setAttribute("src","./istockphoto-692814410-170667a.jpg"); 
+    image4.setAttribute("src","./istockphoto-692814410-170667a.jpg"); 
 }
