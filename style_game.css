@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,800;1,900&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    font-family: Righteous;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0px 2.5px 0 #E57962;
+    color: #0e0d0d;
+    font-size:100px;
+}
+h2.pq{
+    color: #0c0c0c;
+    font-size:50px;
+    text-align: center;
+    
+}
+ol{
+    color: #030303;
+    font-size: 24px;
+    text-align: center;
+    list-style-position: inside;
+    font-weight:900;
+    margin: 5px; 
+
+}
+button{
+    border-radius: 60px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-flexbox;
+    background-color: green;
+    font-weight: bold;
+    animation: glowing 1300ms infinite;
+}
+@keyframes glowing {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+    50% {
+      background-color: #49e819;
+      box-shadow: 0 0 20px #49e819;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }}
+    .container{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    } 
